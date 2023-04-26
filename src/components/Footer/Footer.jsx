@@ -17,32 +17,6 @@ const footerQuickLinks = [
     display: "Courses",
     url: "#",
   },
-
-  {
-    display: "Blog",
-    url: "#",
-  },
-];
-
-const footerInfoLinks = [
-  {
-    display: "Privacy Policy",
-    url: "#",
-  },
-  {
-    display: "Membership",
-    url: "#",
-  },
-
-  {
-    display: "Purchases Guide",
-    url: "#",
-  },
-
-  {
-    display: "Terms of Service",
-    url: "#",
-  },
 ];
 
 const Footer = () => {
@@ -99,24 +73,12 @@ const Footer = () => {
             </ListGroup>
           </Col>
 
-          <Col lg="3" md="6" className="mb-4">
-            <h6 className="fw-bold">Information</h6>
-            <ListGroup className="link__list">
-              {footerInfoLinks.map((item, index) => (
-                <ListGroupItem key={index} className="border-0 ps-0 link__item">
-                  {" "}
-                  <a href={item.url}>{item.display}</a>
-                </ListGroupItem>
-              ))}
-            </ListGroup>
-          </Col>
-
           <Col lg="3" md="6">
             <h6 className="fw-bold">Get in Touch</h6>
 
-            <p>Address: Sylhet, Bangladesh</p>
-            <p> Phone: +88 0123456789 </p>
-            <p>Email: example@gmail.com</p>
+            <p>Address: Jabalpur,Madhya Pradesh</p>
+            <p> Phone: +917389830244, +917089353896</p>
+            <p>Email:  learn-n-earn@gmail.com</p>
           </Col>
         </Row>
       </Container>
