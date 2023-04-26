@@ -1,20 +1,22 @@
 import React, { useRef } from "react";
 import { Container } from "reactstrap";
+import { Link, animateScroll as scroll } from "react-scroll";
+
 import "./header.css";
 
 const navLinks = [
   {
     display: "Home",
-    url: "#",
+    url: "/",
   },
   {
     display: "About",
-    url: "#",
+    url: "#About",
   },
 
   {
     display: "Courses",
-    url: "#",
+    url: "#Courses",
   },
 ];
 
@@ -38,7 +40,9 @@ const Header = () => {
               <ul className="nav__list">
                 {navLinks.map((item, index) => (
                   <li key={index} className="nav__item">
-                    <a href={item.url}>{item.display}</a>
+                    <Link className="nav__item" to={item.url} duration={10}>
+                      {item.display}
+                    </Link>
                   </li>
                 ))}
               </ul>
