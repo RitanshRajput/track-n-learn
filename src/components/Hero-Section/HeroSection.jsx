@@ -1,6 +1,6 @@
 import React from "react";
 import { Container, Row, Col } from "reactstrap";
-import heroImg from "../../assests/images/hero-img1.png";
+import heroImg from "../../assests/images/hero-img1.jpg";
 import "./hero-section.css";
 
 const HeroSection = () => {
@@ -14,14 +14,9 @@ const HeroSection = () => {
                 Anytime Anywhere <br /> Learn on your <br /> Suitable Schedule
               </h2>
               <p className="mb-5">
-                Lorem ipsum dolor sit amet consectetur <br /> adipisicing elit.
-                Aut saepe voluptatum earum delectus <br /> deserunt id iste,
-                quas officiis et repellat!
+                Here at track-n-learn we have <br /> Collected perfectly lined up beginner friendly content<br />
+                for you to start your coding journey.
               </p>
-            </div>
-            <div className="search">
-              <input type="text" placeholder="type here" />
-              <button className="btn">Search</button>
             </div>
           </Col>
 
