@@ -20,16 +20,16 @@ const AboutUs = () => {
             <div className="about__content">
               <h2>About Us</h2>
               <p>
-                Lorem ipsum dolor, sit amet consectetur adipisicing elit.
-                Excepturi cupiditate animi deserunt libero nesciunt corporis
-                explicabo nobis ex quo molestiae!
+                We as a team of computer science students, are trying
+                to make the process of learning new technologies easy,
+                for students like we were two years ago.
               </p>
 
               <div className="about__counter">
                 <div className=" d-flex gap-5 align-items-center">
                   <div className="single__counter">
                     <span className="counter">
-                      <CountUp start={0} end={25} duration={2} suffix="K" />
+                      <CountUp start={0} end={10} duration={2} suffix="+" />
                     </span>
 
                     <p className="counter__title">Completed Projects</p>
@@ -37,29 +37,29 @@ const AboutUs = () => {
 
                   <div className="single__counter">
                     <span className="counter">
-                      <CountUp start={0} end={12} duration={2} suffix="M" />
+                      <CountUp start={0} end={5} duration={2} />
                     </span>
 
-                    <p className="counter__title">Patient Around World</p>
+                    <p className="counter__title">Members in the team</p>
                   </div>
                 </div>
 
                 <div className=" d-flex gap-5 align-items-center">
                   <div className="single__counter">
                     <span className="counter">
-                      <CountUp start={0} end={95} duration={2} suffix="M" />
+                      <CountUp start={0} end={4} duration={2} />
                     </span>
 
-                    <p className="counter__title">Ideas Raised Funds</p>
+                    <p className="counter__title">Complete language tutorials</p>
                   </div>
-
+                  {/* 
                   <div className="single__counter">
                     <span className="counter">
                       <CountUp start={0} end={5} duration={2} suffix="K" />
                     </span>
 
                     <p className="counter__title">Categories Served</p>
-                  </div>
+                  </div> */}
                 </div>
               </div>
             </div>

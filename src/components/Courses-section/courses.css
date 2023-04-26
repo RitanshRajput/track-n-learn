@@ -35,3 +35,7 @@
 .course__top__left h2 {
   font-weight: 600;
 }
+
+.courses-card {
+  max-height: 200px;
+}
