@@ -1,7 +1,7 @@
 import React, { useState } from "react";
 import { Container, Row, Col } from "reactstrap";
 
-import chooseImg from "../../assests/images/why-choose-us.png";
+import chooseImg from "../../assests/images/choose-us-section-img.jpg";
 import "./choose-us.css";
 
 import ReactPlayer from "react-player";
@@ -16,13 +16,10 @@ const ChooseUs = () => {
             <div className="choose__content">
               <h2>Why Choose Us</h2>
               <p>
-                Lorem, ipsum dolor sit amet consectetur adipisicing elit.
-                Incidunt mollitia nostrum harum eos praesentium odit a sed quod
-                aut fugit. Lorem ipsum dolor sit amet consectetur adipisicing
-                elit. Reprehenderit omnis, culpa eligendi inventore perspiciatis
-                minus. Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                Dolores cupiditate facilis provident quidem accusamus impedit
-                tenetur laboriosam debitis nisi eius!
+                At our e-learning website, we are dedicated to providing
+                high-quality education and training to our learners. Our
+                interactive and engaging content ensures that you will enjoy the
+                learning process and retain the knowledge you gain.
               </p>
             </div>
           </Col>
@@ -38,15 +35,6 @@ const ChooseUs = () => {
                 />
               ) : (
                 <img src={chooseImg} alt="" className="w-100" />
-              )}
-
-              {!showVideo && (
-                <span className="play__icon">
-                  <i
-                    class="ri-play-circle-line"
-                    onClick={() => setShowVideo(!showVideo)}
-                  ></i>
-                </span>
               )}
             </div>
           </Col>
