@@ -3,11 +3,10 @@ import { Container } from "reactstrap";
 import { Link, animateScroll as scroll } from "react-scroll";
 
 import "./header.css";
-
 const navLinks = [
   {
     display: "Home",
-    url: "/",
+    url: "#Hero",
   },
   {
     display: "About",
